@@ -11,7 +11,6 @@ timetable.setSchool(targetSchool['code'])
 
 classTime = timetable.getClassTime()
 print(classTime)
-exit()
 result = timetable.getTimetable()
 
 for i in range(2):
